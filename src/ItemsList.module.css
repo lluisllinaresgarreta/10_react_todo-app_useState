@@ -1,22 +1,27 @@
 div{
-   display: flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    padding: 1rem;
 }
 ul{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     justify-content: center;
-    margin-left: 0px 0px 0px 0px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 .items-list{
-    margin: 10px;
-    padding: 10px;
+    margin: 0.5rem;
+    padding: 1rem;
     border-radius: 5px;
-    background:#333333;
-    width: 45%;
-    max-width: 400px;
+    background: #333333;
+    min-width: 250px;
+    flex: 1 1 300px;
+    max-width: 100%;
     display: flex;
-    justify-content: center;
 }
