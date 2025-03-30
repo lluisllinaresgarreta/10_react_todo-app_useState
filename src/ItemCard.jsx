@@ -4,7 +4,7 @@ export const ItemCard = ({ title, description, status }) => {
 
     const statusClass = status === "pending" 
     ? styles.pending 
-    : status === "in progress"
+    : status === "in-progress"
     ? styles.inProgress 
     : styles.done;
 
